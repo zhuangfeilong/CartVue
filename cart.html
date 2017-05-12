@@ -132,7 +132,7 @@
                   </a>
               </div>
               <div class="item-all-del">
-                <a href="javascript:void 0" class="item-del-btn" @click="cancelCheckAll(true)">
+                <a href="javascript:void 0" class="item-del-btn" v-bind:class="{'check':cancelCheckAllFlag}" @click="cancelCheckAll(true)">
                     <span>取消全选</span>
                   </a>
               </div>
