@@ -1,0 +1,56 @@
+{
+  "status": 1,
+  "result": {
+    "totalMoney": 109,
+    "list": [
+      {
+        "productId": "600100002115",
+        "productName": "索尼（SONY）MDR-1ADAC/M 令人惊艳的声效 来自内置数字放大器的耳机 黑色",
+        "productPrice": 1899,
+        "productQuantity": 1,
+        "productImage": "img/1ADAC.png",
+        "parts": [
+          {
+            "partsId": "10001",
+            "partsName": "影音设备30天包退180天包换服务",
+            "imgSrc": "img/gift-1.png"
+          }
+        ]
+      },
+      {
+        "productId": "600100002120",
+        "productName": "Logitech罗技G29动力方向盘（PS4，PS3）英国插头",
+        "productPrice": 1299,
+        "productQuantity": 2,
+        "productImage": "img/G29.png",
+        "parts": [
+          {
+            "partsId": "20001",
+            "partsName": "G29变速箱",
+            "imgSrc": "img/gift-2.png"
+          }
+        ]
+      },
+      {
+        "productId": "600100002117",
+        "productName": "Sapphire/蓝宝石 RX480 8G D5 超白金台式电脑独立显卡",
+        "productPrice": 1799,
+        "productQuantity": 2,
+        "productImage": "img/RX480.png",
+        "parts": [
+          {
+            "partsId": "10001",
+            "partsName": "鼠标",
+            "imgSrc": "img/gift-3.png"
+          },
+          {
+            "partsId": "10002",
+            "partsName": "游戏鼠标",
+            "imgSrc": "img/gift-3.png"
+          }
+        ]
+      }
+    ]
+  },
+  "message": ""
+}

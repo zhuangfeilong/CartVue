@@ -1,0 +1,62 @@
+{
+  "status": 0,
+  "message": "success",
+  "result": {
+      "totalHoney":59,
+      "list":[
+      {
+      "name": "Logitech罗技G29动力方向盘（PS4，PS3）英国插头",
+      "price": 1299,
+      "count": 1,
+      "amount": 19,
+      "imgPic": "static/img/G29.png",
+      "gifts": [
+        {
+          "partId":"10001",
+          "partName":"G29赛车轮驱动力变速箱"
+        },
+        {
+          "partId":"10002",
+          "partName":"Logitech罗技G502 RGB游戏鼠标"
+        }
+      ]
+      },
+      {
+      "name": "Sapphire/蓝宝石 RX480 8G D5 超白金台式电脑独立显卡",
+      "price": 1799,
+      "count": 1,
+      "amount": 20,
+      "imgPic": "static/img/RX480.png",
+        "gifts": [
+          {
+            "partId":"10001",
+            "partName":"游戏鼠标"
+          },
+          {
+            "partId":"10002",
+            "partName":"游戏鼠标"
+          }
+        ]
+      },
+        {
+          "name": "Audio-technica 铁三角 ATH-MSR7NC Hi-Res便携式耳机 降噪 通话 黑色（日本品牌 香港发货）",
+
+          "price": 2499,
+          "count": 1,
+          "amount": 20,
+          "imgPic": "static/img/MSR7.png",
+          "gifts": [
+            {
+              "partId":"10001",
+              "partName":"耳机收纳包"
+            },
+            {
+              "partId":"10002",
+              "partName":"耳机延长线"
+            }
+          ]
+        }
+      ]
+  }
+
+}
