@@ -59,6 +59,7 @@ var vm = new Vue({
       this.calcTotalPrice();
     },
     cancelCheckAll: function (cancelFlag) {
+      this.cancelCheckAllFlag = cancelFlag;
       var _this = this;
       _this.productList.forEach(function (item, index) {
         if (item.checked) {
