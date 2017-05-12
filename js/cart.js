@@ -49,13 +49,24 @@ var vm = new Vue({
       this.checkAllFlag = flag;
       var _this = this;
       this.productList.forEach(function (item, index) {
-        if (typeof item.checked == 'undefined') {
+        if (typeof item.checked == 'undefined' || !item.checked) {
           _this.$set(item, "checked", _this.checkAllFlag);
-        } else {
-          item.checked = _this.checkAllFlag;
+        }
+        else {
+          item.checked = !this.checkAllFlag;
         }
       })
       this.calcTotalPrice();
+    },
+    cancelCheckAll: function (cancelFlag) {
+      var _this = this;
+      _this.productList.forEach(function (item, index) {
+        if (item.checked) {
+          _this.$set(item, "checked", false);
+        } else {
+          item.checked = false;
+        }
+      })
     },
     calcTotalPrice: function () {
       var _this = this;
