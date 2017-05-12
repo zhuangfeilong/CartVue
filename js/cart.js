@@ -4,6 +4,7 @@ var vm = new Vue({
     totalMoney: 0,
     productList: [],
     checkAllFlag: false,
+    cancelCheckAllFlag: false,
     delFlag: false,
     curProduct: ''
   },
